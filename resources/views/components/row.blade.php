@@ -1,5 +1,5 @@
-<div class="w-full h-full bg-gray-200 px-4 py-6 rounded-lg flex flex-row justify-evenly items-center">
-    <div>first name</div>
+<div class="w-full mb-2 bg-gray-200 px-4 py-6 rounded-lg flex flex-row justify-evenly items-center">
+    <div>{{ $customer["FirstName"] }}</div>
     <div>last name</div>
     <div>date of birth</div>
     <div>phone number</div>
