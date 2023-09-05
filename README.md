@@ -1,7 +1,9 @@
 # CRUD Application
 
 it was two years since I used Laravel for my backend projects.
+
 I found next js and server components more convenient for backend development since it's easier to maintain the whole structure although it's slower because of the heavy dependency tree etc...
+
 but after a quick review, I eventually started the project.
 
 now about DDD and BDD concepts:
