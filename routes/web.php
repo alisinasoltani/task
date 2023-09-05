@@ -1,14 +1,9 @@
 <?php
 
-<<<<<<< Updated upstream
-use App\Http\Controllers\InputController;
-use Illuminate\Support\Facades\Route;
-=======
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\InputController;
 use App\Http\Controllers\ProfileController;
->>>>>>> Stashed changes
 
 /*
 |--------------------------------------------------------------------------
@@ -21,13 +16,6 @@ use App\Http\Controllers\ProfileController;
 |
 */
 
-<<<<<<< Updated upstream
-Route::get('/', function () {
-    return view('home');
-});
-
-Route::get('/input', [InputController::class, 'inputForm']);
-=======
 Route::get('/', [InputController::class, 'getHomePage']);
 
 Route::get('/edit/{id}', [InputController::class, 'edit'])->where('id', '\d+');
@@ -50,4 +38,3 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
->>>>>>> Stashed changes
